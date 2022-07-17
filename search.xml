@@ -4,8 +4,15 @@
     <title>天空</title>
     <url>/2022/07/17/%E5%A4%A9%E7%A9%BA/</url>
     <content><![CDATA[<p>天空</p>
+<p><a id="1">a - 1</a></p>
+<p id="1"></p>
+
 <p><img src="https://riveer.oss-cn-hangzhou.aliyuncs.com/image/shy.jpg" alt="shy"></p>
 <p><img src="https://riveer.oss-cn-hangzhou.aliyuncs.com/image/%E6%88%AA%E5%9B%BE.png" alt="截图"></p>
+<p><a href="https://riveer01.github.io/">不要熬夜 (riveer01.github.io)</a></p>
+<p><a href="#1">顶部</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean</span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
         <category>笔记</category>
