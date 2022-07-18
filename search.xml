@@ -120,7 +120,7 @@
 <p>修改主题配置文件，启用local_search。</p>
 <h1 id="修改底部标签图标"><a href="#修改底部标签图标" class="headerlink" title="修改底部标签图标"></a>修改底部标签图标</h1><p>打开&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_macro&#x2F;post.swig文件，查找<code>tag</code>，进行如下修改：</p>
 <p><img src="https://riveer.oss-cn-hangzhou.aliyuncs.com/image/15.png" alt="15"></p>
-<h1 id="代码一键赋值功能"><a href="#代码一键赋值功能" class="headerlink" title="代码一键赋值功能"></a>代码一键赋值功能</h1><p>在主题配置文件中找到copy_button，进行如下修改：</p>
+<h1 id="代码一键复制功能"><a href="#代码一键复制功能" class="headerlink" title="代码一键复制功能"></a>代码一键复制功能</h1><p>在主题配置文件中找到copy_button，进行如下修改：</p>
 <p><img src="https://riveer.oss-cn-hangzhou.aliyuncs.com/image/16.png" alt="16"></p>
 <h1 id="添加打赏"><a href="#添加打赏" class="headerlink" title="添加打赏"></a>添加打赏</h1><p>制作微信和支付宝收款码，将制作好的二维码图片放入themes&#x2F;next&#x2F;source&#x2F;images文件里，并命名为wechatpay.png和alipay.png。</p>
 <p>打开主题配置文件，找到<code>reward</code>：</p>
