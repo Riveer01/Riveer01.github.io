@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测试评论</title>
+    <url>/2022/07/19/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA/</url>
+    <content><![CDATA[<p>j测试一下评论功能</p>
+<p>哈哈哈</p>
+<p>救济金</p>
+]]></content>
+  </entry>
+  <entry>
     <title>搭建博客hexo-next</title>
     <url>/2022/07/17/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2hexo-next/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>基于hexo6.2.0，next7.8.0，github，前提是已经安装好git，node.js，注册了github账号。搭建的过程是一个熟能生巧的过程，可能会多次删除重新来过。<span id="more"></span></p>
@@ -138,12 +146,5 @@
         <tag>next</tag>
         <tag>博客</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试评论</title>
-    <url>/2022/07/19/%E6%B5%8B%E8%AF%95%E8%AF%84%E8%AE%BA/</url>
-    <content><![CDATA[<p>j测试一下评论功能</p>
-<p>哈哈哈</p>
-]]></content>
   </entry>
 </search>
