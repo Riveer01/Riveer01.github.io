@@ -35,6 +35,94 @@
 <td>更推荐使用&lt;ins&gt;&lt;&#x2F;ins&gt;标签加粗，语义更强烈</td>
 </tr>
 </tbody></table>
+<h2 id="盒子标签"><a href="#盒子标签" class="headerlink" title="盒子标签"></a>盒子标签</h2><p>&lt;div&gt;和&lt;span&gt;是没有语义的，它们就是一个盒子，用来装内容的。div是division的缩写，表示分隔、分区；span意为跨度、跨距。</p>
+<ul>
+<li>&lt;div&gt;标签用来布局，但是一行只能放一个，大盒子；</li>
+<li>&lt;span&gt;标签用来布局，一行可以放多个&lt;span&gt;，小盒子。</li>
+</ul>
+<h2 id="图像标签"><a href="#图像标签" class="headerlink" title="图像标签"></a>图像标签</h2><p>&lt;img&gt;是一个单标签。</p>
+<p>用法：&lt;img src &#x3D; “图像URL” &gt;</p>
+<p>src是&lt;img&gt;标签的<code>必须属性</code>，它用于指定图像的路径和文件名。</p>
+<p>图像标签的属性：</p>
+<table>
+<thead>
+<tr>
+<th><strong>属性</strong></th>
+<th><strong>属性值</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>src</td>
+<td>图片路径</td>
+<td>必须属性</td>
+</tr>
+<tr>
+<td>alt</td>
+<td>文本</td>
+<td>替换文本。图像不能显示的文字</td>
+</tr>
+<tr>
+<td>title</td>
+<td>文本</td>
+<td>提示文本。鼠标放到图像上显示的文字</td>
+</tr>
+<tr>
+<td>width</td>
+<td>像素</td>
+<td>设置图像的宽度</td>
+</tr>
+<tr>
+<td>height</td>
+<td>像素</td>
+<td>设置图像的高度</td>
+</tr>
+<tr>
+<td>border</td>
+<td>像素</td>
+<td>设置图像的边框粗细，一般通过css来设定</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<ul>
+<li>一般只需要设定width和height之一；</li>
+<li>图像标签可以拥有多个属性，必须写在标签名的后面；</li>
+<li>属性之间部分先后顺序，标签名与属性、属性与属性之间均以空格分开；</li>
+<li>属性采取键值对的格式，即key &#x3D; “value”的格式，属性 &#x3D; “属性值”。</li>
+</ul>
+<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><h3 id="目录文件夹和根目录"><a href="#目录文件夹和根目录" class="headerlink" title="目录文件夹和根目录"></a>目录文件夹和根目录</h3><ul>
+<li>目录文件夹：就是普通文件夹，里面只不过放了我们做页面所需要的素材，比如html文件和图片等。</li>
+<li>根目录：打开目录文件夹的第一层就是根目录。</li>
+</ul>
+<h3 id="相对路径"><a href="#相对路径" class="headerlink" title="相对路径"></a>相对路径</h3><p>相对路径：以引用文件所在的位置为参考基础，而建立出的目录路径。</p>
+<table>
+<thead>
+<tr>
+<th><strong>相对路径分类</strong></th>
+<th><strong>符号</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>同一级路径</td>
+<td></td>
+<td>图像文件位于HTML文件的同一级，如&lt;img src&#x3D;”baidu.gif”&gt;</td>
+</tr>
+<tr>
+<td>下一级路径</td>
+<td>&#x2F;</td>
+<td>图像文件位于HTML文件的下一级，如&lt;img src&#x3D;”images&#x2F;baidu.gif”</td>
+</tr>
+<tr>
+<td>上一级路径</td>
+<td>..&#x2F;</td>
+<td>图像文件位于HTML文件的上一级，如&lt;img src&#x3D;”..&#x2F;images&#x2F;baidu.gif”</td>
+</tr>
+</tbody></table>
 ]]></content>
       <tags>
         <tag>HTML</tag>
@@ -44,7 +132,7 @@
     <title>搭建博客hexo-next</title>
     <url>/2022/07/17/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2hexo-next/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>基于hexo6.2.0，next7.8.0，github，前提是已经安装好git，node.js，注册了github账号。搭建的过程是一个熟能生巧的过程，可能会多次删除重新来过。<span id="more"></span></p>
-<p>文章中提到的<code>站点配置文件</code>是\Blog\_congfig.yml，<code>主题配置文件</code>是\Blog\themes\next\_config.yml。</p>
+<p>文章中提到的<code>站点配置文件</code>是Blog\_congfig.yml，<code>主题配置文件</code>是Blog\themes\next\_config.yml。</p>
 <p>这是我搭建自己的博客之后发表的第一篇文章，用于记录自己搭建博客的经验。搭建博客的主要原因是记录、分享自己的学习过程、生活感想。</p>
 <h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装<a href="https://hexo.io/zh-cn/">Hexo</a></h1><p>Hexo是我们个人博客网站的框架，首先创建一个文件夹来存放你的博客的所有内容，比如命名为<code>Blog</code>。</p>
 <p>在<code>Blog</code>文件夹中右击</p>
