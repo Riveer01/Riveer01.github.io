@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>HTML学习笔记</title>
+    <url>/2022/07/21/HTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><p>记录HTML的学习历程。<span id="more"></span></p>
+<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p>在网页中，有时需要为文字设置<code>粗体</code>、<code>斜体</code>或<code>下划线</code>等效果，这时需要用到HTML中的文本格式化标签，使文字以特殊的方式显示。</p>
+<p>标签语义：突出重要性，比普通文字更重要。</p>
+<table>
+<thead>
+<tr>
+<th align="left"><strong>语义</strong></th>
+<th align="left"><strong>标签</strong></th>
+<th><strong>说明</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">加粗</td>
+<td align="left">&lt;strong&gt;&lt;&#x2F;strong&gt;或者&lt;b&gt;&lt;&#x2F;b&gt;</td>
+<td>更推荐使用&lt;strong&gt;&lt;&#x2F;strong&gt;标签加粗，语义更强烈</td>
+</tr>
+<tr>
+<td align="left">倾斜</td>
+<td align="left">&lt;em&gt;&lt;&#x2F;em&gt;或者&lt;i&gt;&lt;&#x2F;i&gt;</td>
+<td>更推荐使用&lt;em&gt;&lt;&#x2F;em&gt;标签加粗，语义更强烈</td>
+</tr>
+<tr>
+<td align="left">删除线</td>
+<td align="left">&lt;del&gt;&lt;&#x2F;del&gt;或者&lt;s&gt;&lt;&#x2F;s&gt;</td>
+<td>更推荐使用&lt;del&gt;&lt;&#x2F;del&gt;标签加粗，语义更加强烈</td>
+</tr>
+<tr>
+<td align="left">下划线</td>
+<td align="left">&lt;ins&gt;&lt;&#x2F;ins&gt;或者&lt;u&gt;&lt;&#x2F;u&gt;</td>
+<td></td>
+</tr>
+</tbody></table>
+]]></content>
+      <tags>
+        <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>搭建博客hexo-next</title>
     <url>/2022/07/17/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2hexo-next/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>基于hexo6.2.0，next7.8.0，github，前提是已经安装好git，node.js，注册了github账号。搭建的过程是一个熟能生巧的过程，可能会多次删除重新来过。<span id="more"></span></p>
@@ -137,46 +177,6 @@
         <tag>hexo</tag>
         <tag>next</tag>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML学习笔记</title>
-    <url>/2022/07/21/HTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><p>记录HTML的学习历程。<span id="more"></span></p>
-<h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p>在网页中，有时需要为文字设置<code>粗体</code>、<code>斜体</code>或<code>下划线</code>等效果，这时需要用到HTML中的文本格式化标签，使文字以特殊的方式显示。</p>
-<p>标签语义：突出重要性，比普通文字更重要。</p>
-<table>
-<thead>
-<tr>
-<th align="left"><strong>语义</strong></th>
-<th align="left"><strong>标签</strong></th>
-<th><strong>说明</strong></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">加粗</td>
-<td align="left">&lt;strong&gt;&lt;&#x2F;strong&gt;或者&lt;b&gt;&lt;&#x2F;b&gt;</td>
-<td>更推荐使用&lt;strong&gt;&lt;&#x2F;strong&gt;标签加粗，语义更强烈</td>
-</tr>
-<tr>
-<td align="left">倾斜</td>
-<td align="left">&lt;em&gt;&lt;&#x2F;em&gt;或者&lt;i&gt;&lt;&#x2F;i&gt;</td>
-<td>更推荐使用&lt;em&gt;&lt;&#x2F;em&gt;标签加粗，语义更强烈</td>
-</tr>
-<tr>
-<td align="left">删除线</td>
-<td align="left">&lt;&lt;del&gt;&gt;&lt;&lt;&#x2F;del&gt;&gt;或者&lt;&lt;s&gt;&gt;&lt;&lt;&#x2F;s&gt;&gt;</td>
-<td>更推荐使用&lt;&lt;del&gt;&gt;&lt;&lt;&#x2F;del&gt;&gt;标签加粗，语义更加强烈</td>
-</tr>
-<tr>
-<td align="left">下划线</td>
-<td align="left">&lt;ins&gt;&lt;&#x2F;ins&gt;或者&lt;u&gt;&lt;&#x2F;u&gt;</td>
-<td></td>
-</tr>
-</tbody></table>
-]]></content>
-      <tags>
-        <tag>HTML</tag>
       </tags>
   </entry>
 </search>
