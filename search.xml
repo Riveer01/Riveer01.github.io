@@ -140,7 +140,7 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>HTML学习笔记</title>
     <url>/2022/07/21/HTML%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h1><p>记录HTML的学习历程。<span id="more"></span></p>
 <h2 id="文本格式化标签"><a href="#文本格式化标签" class="headerlink" title="文本格式化标签"></a>文本格式化标签</h2><p>在网页中，有时需要为文字设置<code>粗体</code>、<code>斜体</code>或<code>下划线</code>等效果，这时需要用到HTML中的文本格式化标签，使文字以特殊的方式显示。</p>
